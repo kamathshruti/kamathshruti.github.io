@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf=8">
+	<meta name="viewport" content="device-width",initial-scale=1>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<title>My Web Page</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-secondary">
+    <img src=https://tse2.mm.bing.net/th?id=OIP.t39dBV7rRCWo17fWtayhXgHaEG&pid=Api&P=0&w=266&h=148.jpg" alt="logo" style="width:60px;">
+  <div class="container-fluid">
+  	<div class="navbar-header">
+    <h3>Welcome All ! !</h3>
+  </div>
+    <ul class="navbar-nav">
+    	<li class="nav-item">
+    	<a class="nav-link active" href="#">Home</a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Art</a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Nature</a></li>
+      <li class="nav-item">
+      <a class=" nav-link" href="#">Fashion</a></li>
+    </ul>
+    <button class="btn btn-success navbar-btn">Button</button>
+  </div>
+</nav>
+<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <div class="jumbotron text-centre">
+	<div class="container" style="background-color:pink" width:"100px">
+		<div class="row justify-content-center">
+      <div style="width: 500px;">
+        <h2>Hello,This is Shruti's Page!!!!</h2>
+        <h6>This is my page!!!!Please have a look. I hope you like it.Have a nice day!</h6>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.CwJgkutsC4py72HZumZJHgHaFS&pid=Api&P=0&w=241&h=173.jpg" alt="art" class="responsive" width="80px" min-width: 0>
+        <img src=http://thewowstyle.com/wp-content/uploads/2015/07/Natural-World-Wallpaper-HD-.jpg alt="nature" class="responsive" width="90px">
+        <img src=https://tse1.mm.bing.net/th?id=OIP.XWygMBM5g69Gq_fJmUqDggAAAA&pid=Api&P=0&w=300&h=300.jpg" alt="fashion" class="responsive" width="90px">
+        <img src=https://tse2.mm.bing.net/th?id=OIP.6vu2feZz9PmeHiHox3Op4wHaEK&pid=Api&P=0&w=333&h=188.jpg" alt="fashion" class="responsive" width="90px">
+        <img src=https://tse2.mm.bing.net/th?id=OIP.AHzppA5wjnIfSt88AzM6DgHaHa&pid=Api&P=0&w=300&h=300.jpg" alt="fashion" class="responsive" width="90px">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron text-centre">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <h5>More Links:</h5>
+                <p>Have a look!</p>
+                <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link active" href="#">Ornaments</a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Sports</a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Industries</a></li>
+      <li class="nav-item">
+      <a class=" nav-link" href="#">Food</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    <form action="/action_page.php">
+      <div class="form-group">
+        <h5>My Login Form:</h5>
+        <label for="email">Your Username or email address-</label>
+        <input type="email" class="form-control" placeholder="Enter email/Username here" id="email">
+         </div>
+         <div class="form-group">
+          <label for="pwd"> Your Password-</label>
+          <input type="password" class="form-control" placeholder="Enter password here" id="pwd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+           <input class="form-check-input" type="checkbox">Remember me?
+         </label>
+       </div>
+       <button type="submit" class="btn btn-primary"> Click to Submit</button>
+     </form>
+   </div>
+   <div class="col-sm-4">
+    <h5>Some Information:</h5>
+    <p>In December 2019, a novel coronavirus strain (SARS-CoV-2) emerged in the city of Wuhan, China. This subreddit seeks to monitor the spread of the disease COVID-19, declared a pandemic by the WHO. Please be civil and empathetic.Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.Stay Safe,Stay Healthy!</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
