@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP TEST</title>
+       
+    </head>
+</html>
+<body>
+    
+    <div class="container">
+        <div class="form" >
+            
+            <form  name="product_catalog" action="product_catalogshow.php" method="post">
+                <h2>Plz enter the Products in the below form</h2>
+                <b>Enter Product ID:</b><br>
+                <input type="text" name="id" >
+                <br><br>
+                <b>Enter Product Name:</b><br>
+                <input type="text" name="name" >
+                <br><br>
+                <b>Enter Product Price:</b><br>
+                <input type="text" name="price" >
+                <br><br>
+                <b>Enter Product Description:</b><br>
+                <input type="text" name="description">
+                <br><br>
+                <input type="submit" value="insert"  formaction="product_cataloginsert.php">
+                <input type="submit" value="delete" formaction="product_catalogdelete.php">
+                <input type="submit" value="show" formaction="product_catalogshow.php">
+                
+                
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+	
